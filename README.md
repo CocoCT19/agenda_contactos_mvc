@@ -55,7 +55,7 @@ Antes de empezar, asegúrate de tener instalado:
    Abre tu navegador y entra a:
 
    ```
-   http://localhost/agenda_contactos_mvc/public
+   http://localhost/agenda_contactos_mvc/publico
    ```
 
 ---
