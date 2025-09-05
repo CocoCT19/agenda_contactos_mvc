@@ -99,7 +99,6 @@ class Contacto
         $c->nombre = $fila['nombre'];
         $c->telefono = $fila['telefono'];
         $c->correo = $fila['correo'] ?? null;
-        $c->direccion = $fila['direccion'] ?? null;
         return $c;
     }
 }

@@ -16,7 +16,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <h2>Nuevo contacto</h2>
 
-<!-- Mostrar mensaje de error si existe -->
 <?php if (!empty($_SESSION['error'])): ?>
     <div style="color:red; margin-bottom:15px;">
         <?= htmlspecialchars($_SESSION['error']) ?>

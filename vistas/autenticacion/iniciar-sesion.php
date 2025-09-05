@@ -38,17 +38,18 @@ if (empty($_SESSION['_token'])) {
         <input type="hidden" name="_token" value="<?= htmlspecialchars($_SESSION['_token']) ?>">
 
         <div class="fila">
-            <div style="flex:1 1 300px;">
+            <div>
                 <label for="correo">Correo electrónico</label>
                 <input id="correo" name="correo" type="email" required>
             </div>
-            <div style="flex:1 1 300px;">
+            <div>
                 <label for="contrasena">Contraseña</label>
                 <input id="contrasena" name="contrasena" type="password" required>
             </div>
         </div>
 
         <button class="boton" type="submit">Entrar</button>
+        <a href="/agenda_contactos_mvc/publico/registro">Registro</a>
     </form>
 </body>
 </html>
