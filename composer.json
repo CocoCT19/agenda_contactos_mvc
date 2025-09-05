@@ -1,0 +1,19 @@
+{
+  "name": "ligo/agenda-contactos-mvc",
+  "description": "Agenda de contactos en PHP (POO) con MVC, PDO, Composer y login/registro.",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "aplicacion/"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@php -r \"copy('.env.example', '.env');\""
+    ]
+  }
+}
